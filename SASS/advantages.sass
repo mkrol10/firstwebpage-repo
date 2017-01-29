@@ -1,0 +1,37 @@
+@import variables.sass
+
+.icon  
+	margin: 200px auto
+
+	h3 
+		font-family: 'Josefin Sans', sans-serif
+		font-weight: bold
+		text-transform: uppercase
+		color: #313332
+		
+
+.ico 
+	font-size: 50px
+	color: white
+	
+	
+section 
+	.container 
+		.icon-btn 
+			height: 100px
+			width: 100px
+			background-color: green
+			border-radius: 20px
+			&:hover,
+			&:focus
+				background-color: $color-primary
+				transform: scale(1.10)
+				cursor: pointer
+			&:hover + h3,
+			&:focus + h3
+				color: $color-primary
+
+@media(max-width:767px)
+
+	.ic 
+		margin-top: 50px

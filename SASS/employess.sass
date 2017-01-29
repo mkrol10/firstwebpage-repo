@@ -1,0 +1,67 @@
+@import variables.sass
+
+.item 
+	position: relative
+	text-align: center
+	
+	h4
+		text-align: center
+
+
+.picture
+	margin: 0 auto
+	width: 200px
+	height: 200px
+	&:hover > .job,
+	&:focus > .job
+		display: block
+		cursor: pointer	
+	
+
+	img 
+		width: 200px
+		height: 200px
+		border-radius: 50%
+		text-align: center	
+
+.job
+	@extend img
+	display: none
+	position: absolute
+	transition: .5s
+	&:hover,
+	&:focus
+		background-color: rgba(0,0,0, 0.5)
+		transition: .4s
+		
+
+	p 
+		position: relative 
+		top: 30%
+		text-align: center
+		color: white
+
+@media(max-width:767px) 
+
+	.employees
+		.h2-main
+			margin-bottom: 30px
+	
+	
+			.picture 
+				margin-top: 80px
+				&:hover > .job,
+				&:focus > .job
+					cursor: default
+		
+    	
+			.job 
+				display: block
+				&:hover,
+				&:focus
+					background-color: rgba(0,0,0, 0)
+    	
+			p 
+				position: relative
+				top: -30%
+				color: $color-primary
