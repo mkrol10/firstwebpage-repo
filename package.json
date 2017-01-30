@@ -18,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/mkrol10/firstwebpage-repo/issues"
   },
-  "homepage": "https://github.com/mkrol10/firstwebpage-repo#readme"
+  "homepage": "https://github.com/mkrol10/firstwebpage-repo#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-imagemin": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^2.0.0"
+  }
 }
