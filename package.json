@@ -1,0 +1,22 @@
+{
+  "name": "firstwebpage-repo",
+  "version": "1.0.0",
+  "description": "My first web page.",
+  "main": "index.js",
+  "scripts": {
+    "test": "firstwebpage-test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkrol10/firstwebpage-repo.git"
+  },
+  "keywords": [
+    "grunt"
+  ],
+  "author": "Mateusz Król",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mkrol10/firstwebpage-repo/issues"
+  },
+  "homepage": "https://github.com/mkrol10/firstwebpage-repo#readme"
+}
