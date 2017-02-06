@@ -4,11 +4,11 @@ module.exports = function(grunt) {
     grunt.initConfig({
         sass: {
             options: {
-                sourceMap: true
+                sourceMap: false
             },
             dist: {
                 files: {
-                    'main.css': 'main.sass'
+                    'css/main.css': 'SASS/main.sass'
                 }
             }
         },
