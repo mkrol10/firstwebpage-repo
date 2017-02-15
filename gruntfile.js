@@ -3,9 +3,6 @@ module.exports = function(grunt) {
     // Project configuration.
     grunt.initConfig({
         sass: {
-            options: {
-                sourceMap: false
-            },
             dist: {
                 files: {
                     'css/main.css': 'SASS/main.sass'
@@ -19,7 +16,7 @@ module.exports = function(grunt) {
                     expand: true,
                     cwd: 'images/',
                     src: ['**/*.{png,jpg,gif}'],
-                    dest: 'images/build/'
+                    dest: 'images/'
                 }]
             }
         },
