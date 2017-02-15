@@ -3,6 +3,10 @@ module.exports = function(grunt) {
     // Project configuration.
     grunt.initConfig({
         sass: {
+<<<<<<< HEAD
+=======
+
+>>>>>>> 90efefc15c227be7c027db9ddeccfbbd18969b0f
             dist: {
                 files: {
                     'css/main.css': 'SASS/main.sass'
@@ -15,8 +19,13 @@ module.exports = function(grunt) {
                 files: [{
                     expand: true,
                     cwd: 'images/',
+<<<<<<< HEAD
                     src: ['**/*.{png,jpg,gif}'],
                     dest: 'images/'
+=======
+                    src: ['/*.{png,jpg,gif}'],
+                    dest: 'images/build/'
+>>>>>>> 90efefc15c227be7c027db9ddeccfbbd18969b0f
                 }]
             }
         },
